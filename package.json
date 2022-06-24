@@ -1,0 +1,15 @@
+{
+  "name": "david-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Nierman",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
