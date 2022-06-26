@@ -11,6 +11,9 @@ app.listen(3000, () => {
 // Integrating EJS for templating
 app.set('view engine', 'ejs');
 
+//Middleware to use/load style sheets
+app.use(express.static(__dirname + '/'));
+
 // #############      ROUTES       #################
 
 // INDEX

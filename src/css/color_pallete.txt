@@ -1,0 +1,11 @@
+/* CSS HEX */
+/* --forest-green-crayola: */
+ #62a878ff
+/* --cadet: */
+ #4a6d7cff
+/* --bright-yellow-crayola: */
+ #f9a620ff
+/* --fire-opal: */
+ #ef6461ff
+/* --platinum: */
+ #e5e5e5ff
