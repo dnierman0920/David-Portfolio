@@ -10,10 +10,10 @@
   --font: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
   --font_semibold: "SF Mono Heavy", "Fira Code","Fira Mono","Roboto Mono";
   --forest-green-crayola: #62a878ff;
-  --cadet:#4a6d7cff;
+  --charcoal:#2A3D45;
   --bright-yellow-crayola:#f9a620ff;
   --fire-opal:#ef6461ff;
-  --platinum:#e5e5e5ff;
+  --platinum: #EBE9E9;
 
 }
 
@@ -24,29 +24,40 @@
       font-size: inherit;
   }
 
-  nav, footer{
+  .nav-wrapper{
+    margin-right: 2%;
+
+  }
+
+  nav, footer {
     color: #e5e5e5ff;
-    background-color: #4a6d7cff;
+    background-color: var(--charcoal);
     font-family: var(--font);
     font-size: 12px;
   }
 
   nav ul a {
     font-size: 12px;
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+    line-height: 500%;
+    color: var(--platinum)
+  }
+
+  .sidenav{
+    background-color: var(--bright-yellow-crayola);
+  }
+
+  .sidenav li > a {
+    color: var(--charcoal);
   }
 
   body{
     color: #e5e5e5ff;
-    background-color: #4a6d7cff;
+    background-color:var(--charcoal);
     font-family: var(--font_semibold);
   }
+
   footer{
     color: #e5e5e5ff;
-    background-color: #f9a620ff;
   }
 
   .yellow_border{
@@ -56,12 +67,10 @@
   }
 
   .yellow_border_small{
-    border: 2px solid #f9a620ff;
+    border: 2px solid var(--platinum);
+    background-color: var(--bright-yellow-crayola);
+    color: var(--charcoal);
     border-radius: 15px;
-    padding:0.0rem 0rem;
-    line-height: 200%;
-    height: 1%;
-    width: 18%;
   }
 
 
