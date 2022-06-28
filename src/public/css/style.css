@@ -38,9 +38,9 @@
   }
 
   nav ul a {
-    font-size: 12px;
-    line-height: 500%;
-    color: var(--platinum)
+    font-size: 20px;
+    color: var(--platinum);
+    display:revert;
   }
 
   .sidenav{
@@ -48,6 +48,9 @@
   }
 
   .sidenav li > a {
+    font-size: 30px;
+    line-height: 500%;
+    margin-top: 50px;
     color: var(--charcoal);
   }
 
@@ -64,7 +67,7 @@
   .yellow_border{
     border: 2px solid #f9a620ff;
     border-radius: 25px;
-    padding: 20px;
+    padding-top: 1px;
   }
 
   .yellow_border_small{
@@ -72,6 +75,8 @@
     background-color: var(--bright-yellow-crayola);
     color: var(--charcoal);
     border-radius: 15px;
+    padding:10px;
+    height: 40px;
   }
 
 
