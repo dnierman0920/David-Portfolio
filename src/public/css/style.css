@@ -14,7 +14,6 @@
   --bright-yellow-crayola:#f9a620ff;
   --fire-opal:#ef6461ff;
   --platinum: #EBE9E9;
-
 }
 
  .icon-block {
@@ -23,10 +22,12 @@
   .icon-block .material-icons {
       font-size: inherit;
   }
+  p{
+    font-size: 90%;
+  }
 
   .nav-wrapper{
     margin-right: 2%;
-
   }
 
   nav, footer {
