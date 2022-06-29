@@ -45,10 +45,6 @@
     color: var(--platinum);
     display:revert;
   }
-  nav ul a:hover {
-    color: var(--fire-opal);
-    background-color: var(--charcoal);
-  }
 
   .sidenav{
     background-color: var(--bright-yellow-crayola);
@@ -76,10 +72,14 @@
     color: #e5e5e5ff;
   }
 
-  .yellow_border{
+  .yellow_border_round{
     border: 2px solid #f9a620ff;
     border-radius: 25px;
     padding-top: 1px;
+  }
+
+  .yellow_border_square{
+    border: 2px solid #f9a620ff;
   }
 
   .yellow_border_small{
@@ -89,11 +89,6 @@
     border-radius: 15px;
     height: 40px;
     margin-right: 10px;
-  }
-
-  .btn:hover{
-    color: var(--fire-opal);
-    background-color: var(--charcoal);
   }
 
   nav i.material-icons {
@@ -112,4 +107,13 @@
 
 .card .card-image img {
   padding: 1%;
+}
+
+.hover-fire-opal:hover, nav ul a:hover, i:hover, .btn:hover, .brand-logo:hover {
+  color: var(--fire-opal);
+  background-color: var(--charcoal);
+}
+
+.hover-image-fire-opal:hover{
+  filter: grayscale(100%) brightness(50%) sepia(70%) hue-rotate(-45deg) saturate(500%) contrast(0.8);
 }
