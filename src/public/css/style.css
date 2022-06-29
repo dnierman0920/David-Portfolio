@@ -16,14 +16,18 @@
   --platinum: #EBE9E9;
 }
 
+.yellow-crayola-text{
+  color: var(--bright-yellow-crayola)
+}
+
  .icon-block {
     padding: 0 15px;
   }
   .icon-block .material-icons {
       font-size: inherit;
   }
-  p{
-    font-size: 90%;
+  .card .card-reveal{
+    background-color: var(--charcoal);
   }
   .nav-wrapper{
     margin-right: 2%;
@@ -63,6 +67,11 @@
     font-family: var(--font_semibold);
   }
 
+  p{
+    font-size: 120%;
+  }
+
+
   footer{
     color: #e5e5e5ff;
   }
@@ -92,3 +101,15 @@
     font-size: 40px;
 }
 
+.card-content{
+  background-color: var(--charcoal);
+}
+
+.card{
+  border: 2px solid var(--bright-yellow-crayola);
+  background-color: var(--charcoal);
+}
+
+.card .card-image img {
+  padding: 1%;
+}
