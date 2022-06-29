@@ -25,7 +25,6 @@
   p{
     font-size: 90%;
   }
-
   .nav-wrapper{
     margin-right: 2%;
   }
@@ -41,6 +40,10 @@
     font-size: 20px;
     color: var(--platinum);
     display:revert;
+  }
+  nav ul a:hover {
+    color: var(--fire-opal);
+    background-color: var(--charcoal);
   }
 
   .sidenav{
@@ -75,8 +78,17 @@
     background-color: var(--bright-yellow-crayola);
     color: var(--charcoal);
     border-radius: 15px;
-    padding:10px;
     height: 40px;
+    margin-right: 10px;
   }
 
+  .btn:hover{
+    color: var(--fire-opal);
+    background-color: var(--charcoal);
+  }
+
+  nav i.material-icons {
+    display: block;
+    font-size: 40px;
+}
 
