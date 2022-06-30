@@ -2,10 +2,12 @@
   "name": "david-portfolio",
   "version": "1.0.0",
   "description": "portfolio",
-  "main": "app.js",
-  "web": "node app.js",
+  "main": "node src/app.js",
+  "web": "node src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node src/app.js",
+    "web": "node src/app.js"
   },
   "author": "David Nierman",
   "license": "ISC",
