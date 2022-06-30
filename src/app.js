@@ -15,7 +15,7 @@ app.use(express.static(__dirname + '/public/'));
 
 // INDEX
 app.get('/', (request, response) => {
-    response.render('index', {
+    response.render('index.ejs', {
       subject: 'EJS template engine',
       name: 'our template',
       link: 'https://google.com'
