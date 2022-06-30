@@ -3,7 +3,9 @@ const path = require('path');
 const app = express();
 
 var port_number = app.listen(process.env.PORT || 3000);
-app.listen(port_number)
+app.listen(port_number, () => {
+  console.log('App is listening on port 3000');
+});
 
 // Integrating EJS for templating
 app.set('view engine', 'ejs');
@@ -15,7 +17,7 @@ app.use(express.static(__dirname + '/public/'));
 
 // INDEX
 app.get('/', (request, response) => {
-    response.render('index.ejs', {
+    response.render('index', {
       subject: 'EJS template engine',
       name: 'our template',
       link: 'https://google.com'
