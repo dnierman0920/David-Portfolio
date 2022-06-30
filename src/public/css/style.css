@@ -117,3 +117,9 @@
 .hover-image-fire-opal:hover{
   filter: grayscale(100%) brightness(50%) sepia(70%) hue-rotate(-45deg) saturate(500%) contrast(0.8);
 }
+
+.med_grey_font{
+  color: #A2A3BB;
+  font-size: 150%;
+  /* padding-left: 1em; */
+}
