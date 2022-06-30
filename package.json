@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "portfolio",
   "main": "app.js",
+  "web": "node app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,5 @@
   "dependencies": {
     "ejs": "^3.1.8",
     "express": "^4.18.1"
-  }
+  },
 }
