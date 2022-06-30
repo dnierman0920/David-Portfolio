@@ -1,9 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
-app.get('/', (request, response) => {
-  return response.send('OK');
-});
+
 app.listen(3000, () => {
   console.log('App is listening on port 3000');
 });
@@ -11,13 +9,13 @@ app.listen(3000, () => {
 // Integrating EJS for templating
 app.set('view engine', 'ejs');
 
-//Middleware to use/load style sheets
+//Middleware to use/load style sheets & images
 app.use(express.static(__dirname + '/public/'));
 
 // #############      ROUTES       #################
 
 // INDEX
-app.get('/index', (request, response) => {
+app.get('/', (request, response) => {
     response.render('index', {
       subject: 'EJS template engine',
       name: 'our template',
